@@ -1,5 +1,5 @@
-l= int (input('enter your list:'))
+l= int(input('enter your list:'))
 a=0
-for i in l:
+for i in range(l):
     a=i+a
 print('the sum of list is:',a)
